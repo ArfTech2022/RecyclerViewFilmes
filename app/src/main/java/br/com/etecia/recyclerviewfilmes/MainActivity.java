@@ -27,6 +27,6 @@ public class MainActivity extends AppCompatActivity {
                         R.drawable.A_queda));
 
         //criando (instanciando) a classe adptadora e passando os parâmetros
-        MyAdapter adapter = new MyAdapter(getApplicationContext(),);
+        MyAdapter adapter = new MyAdapter(getApplicationContext(),listaFilmes);
     }
 }
