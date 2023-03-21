@@ -18,7 +18,7 @@
             android:layout_width="190dp"
             android:layout_height="250dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/A_queda" />
+            android:src="@drawable/aqueda" />
 
         <TextView
             android:id="@+id/idTituloFilmes"
