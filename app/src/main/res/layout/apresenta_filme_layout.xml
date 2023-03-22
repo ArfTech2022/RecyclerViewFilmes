@@ -100,6 +100,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="5sp"
             android:layout_marginRight="50sp"
+            android:textStyle="bold"
             android:text="4.5"
             android:textColor="#000"
             android:textSize="20sp" />
@@ -116,7 +117,19 @@
             android:layout_height="wrap_content"
             android:src="@drawable/baseline_share" />
 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="voltar"
+            android:id="@+id/btnVoltar"
+            android:layout_margin="5dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+
     </LinearLayout>
+
 
 
 </LinearLayout>
